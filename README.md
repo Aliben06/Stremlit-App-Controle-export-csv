@@ -44,13 +44,16 @@ pip install -r requirements.txt
 
 4. Lancez l'application Streamlit :
 
+Sous Windows, vous pouvez facilement lancer l'application en exécutant le fichier `run.bat` inclus dans le projet. Il suffit de double-cliquer sur le fichier `run.bat` pour démarrer l'application Streamlit.
+
+Si vous préférez lancer manuellement, vous pouvez utiliser la commande suivante dans votre terminal :
 ```
 streamlit run streamlit_visualisation_rapport_PTO.py
 ```
 
  Usage
 1. Ouvrez l'application Streamlit dans votre navigateur.
-2. Chargez le fichier CSV "Données de test" avec les données des contrôles.
+2. Chargez le fichier CSV "Rapport des contrôles PTO-CAB.csv" avec les données des contrôles.
 3. Sélectionnez les périodes à afficher et configurez les options de visualisation.
 4. Exportez les données analysées en format CSV.
 
